@@ -1,5 +1,5 @@
 import tools
-def main():
+def main(): #區域變數
     height:int = int(input("請輸入身高公分"))
     weight:int = int(input("請輸入體重公斤"))
     BMI:float = tools.get_bmi(weight,height)
@@ -11,4 +11,4 @@ def main():
     print(f"狀態為:{status}")
 
 if __name__ == '__main__':
-    main()
+    main()   #全域變數
